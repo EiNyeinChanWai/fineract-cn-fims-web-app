@@ -32,6 +32,7 @@ export class CurrencyService {
     {code: 'USD', name: 'US Dollar', sign: '$', digits: 2},
     {code: 'TTD', name: 'Trinidad and Tobago Dollar', sign: '$', digits: 2},
     {code: 'XCD', name: 'East Caribbean Dollar', sign: '$', digits: 2}
+    {code: 'MMK', name: 'Myanmar Kyat', sign: 'Ks', digits: 2}
   ];
 
   fetchCurrencies(): Observable<Currency[]> {
